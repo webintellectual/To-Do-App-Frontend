@@ -68,3 +68,7 @@ input{
   cursor: pointer;
   /* font-size: 20px; */
 }
+
+.editInput{
+  width: 77%;
+}

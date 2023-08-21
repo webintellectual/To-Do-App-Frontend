@@ -46,7 +46,7 @@ const ToDo = ({ id , text }) => {
       {isEditing ? (
         <>
           {/* value and onChange can only work on same variable */}
-          <input type="text" value={editingModeText} onChange={handleInputChange}/>
+          <input className="editInput" type="text" value={editingModeText} onChange={handleInputChange}/>
           <div className="icons">
           <FaCheck className="icon" onClick={() => handleEditText(id,editingModeText)} />
             <FaTimes className="icon" onClick={handleCancelEdit}/>
